@@ -1,3 +1,91 @@
-oieeee
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebTintas</title>
+    <style>
+        .header{
+            background-color:  rgb(225, 78, 255);
+            color:  rgb(247, 255, 179);
+        }
+        .aaa{
+            color:rgb(105, 46, 128);
+            font-family:sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(247, 255, 179);">
 
-.hmtl
+    <form>
+        <div class="header">
+            <img src="https://papelnaparede.com.br/17330-large_default/Papel-de-Parede-Adesivo-degrade-amarelo-roxo-N014079.jpg" width="2000px" height="50px">
+            <h2>WebTintas.com</h2>
+            <a href="https://youtu.be/ktpSddmf0-0?si=q3gLLKp1KQ8Aw6aL" 
+            style="color:rgb(247, 255, 179)" target=”_blank”>Confira Nossos Serviços Aqui!</a>
+        </div>
+
+        <div class="aaa">
+        <h1>Finalizar Compra</h1>
+        <h4><em>OBS.: Os campos marcados com um asterisco (*) são OBRIGATÓRIOS.</em></h4>
+
+            <fieldset>
+                <legend>Informações do Produto *</legend>
+                <label for="cor1">Cor: *</label>
+                <input type="color" name="cor" id="cor1" required>
+                <br>
+                <p>Tamanho das latas: *</p>
+                <input type="radio" id="tam1" name="tam" required>
+                <label for="tam1">900ml</label>
+                <input type="radio" id="tam2" name="tam" required>
+                <label for="tam2">3,6L</label>
+                <input type="radio" id="tam3" name="tam" required>
+                <label for="tam3">18L</label>
+                <br>
+                <label for="qtd">Quantidade de latas: *</label>
+                <input type="number" name="qtd" id="qtd1" required>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Cadastro</legend>
+                <p>Cadastre-se para receber novidades!</p>
+                <label for="nome1">Nome: </label>
+                <input type="text" name="nome" id="nome1">
+                <br>
+                <label for="email1">E-mail:</label>
+                <input type="email" name="email" id="email1">
+                <br>
+                <label for="nasc1">Data de Nascimento: </label>
+                <input type="date" name="nasc" id="nasc1">
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informações do Pagamento *</legend>
+                <p>Forma de pagamento: *</p>
+                <input type="radio" id="pag1" name="pag" required>
+                <label for="pag1">Cartão de Crédito</label>
+                <input type="radio" id="pag2" name="pag" required>
+                <label for="pag2">Cartão de Débito</label>
+                <input type="radio" id="pag3" name="pag" required>
+                <label for="pag3">Pix</label>
+                <br>
+                <label for="end1">Endereço: *</label>
+                <input type="text" name="end" id="end1" required>
+                <br>
+                <label for="num1">Número de Telefone: *</label>
+                <input type="number" name="num" id="num1" required>
+
+            </fieldset>
+
+            <p> </p>
+            <input type="submit" value="Enviar" style="background-color: rgb(225, 78, 255);">
+            <input type="reset" value="Limpar" style="background-color: rgb(225, 78, 255);">
+            <br>
+            <p> </p>
+            <img src="https://papelnaparede.com.br/17330-large_default/Papel-de-Parede-Adesivo-degrade-amarelo-roxo-N014079.jpg" width="2000px" height="50px">
+        </div>
+    </form>
+</body>
+</html>
